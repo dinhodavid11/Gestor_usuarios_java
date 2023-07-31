@@ -10,4 +10,9 @@ public class HolaMundoController {
     public String holaMundo() {
         return "¡Hola Mundo!";
     }
+
+     @GetMapping("/riapira")
+    public String holaMundoRiapira() {
+        return "¡people!";
+    }
 }
